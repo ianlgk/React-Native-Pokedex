@@ -1,11 +1,22 @@
 import React from "react";
-import { StatusBar } from "expo-status-bar";
-import { Container } from "./styles";
+import { Container, Image } from "./styles";
+import { StatusBar } from 'react-native';
+import Constants from "expo-constants";
 
 export default function Navbar() {
+
   return (
-    <Container>
-      <StatusBar style="light" />
+    <Container
+      paddingTop={Constants.statusBarHeight}
+    >
+      <StatusBar
+        barStyle="light-content"
+        translucent={true}
+        backgroundColor="transparent"
+      />
+      <Image
+        source={require('../../assets/pokeball_yellow.png')}
+      />
     </Container>
   );
 }
