@@ -3,7 +3,7 @@ import { Container, Image } from "./styles";
 import { StatusBar } from 'react-native';
 import Constants from "expo-constants";
 
-export default function Navbar() {
+export default function Header() {
 
   return (
     <Container
