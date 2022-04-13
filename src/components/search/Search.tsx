@@ -1,18 +1,18 @@
 import React from "react";
-import { Container, Input } from "./styles";
-import Icon from "react-native-vector-icons/Ionicons";
+import { Container, Input, IconStyled } from "./styles";
 
 export default function Search() {
   return (
     <Container>
       <Input
-        placeholder="What's your pokemon name?"
-      >
-        <Icon
-          name="search"
-          size={24}
-        />
-      </Input>
+        placeholder="What pokemon do you want to find?"
+        placeholderTextColor="#3f3f3f"
+      />
+      <IconStyled
+        name="search"
+        size={24}
+        color="#3f3f3f"
+      />
     </Container>
   );
 }
