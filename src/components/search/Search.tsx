@@ -6,12 +6,12 @@ export default function Search() {
     <Container>
       <Input
         placeholder="What pokemon do you want to find?"
-        placeholderTextColor="#3f3f3f"
+        placeholderTextColor="#8d8d8d"
       />
       <IconStyled
         name="search"
         size={24}
-        color="#3f3f3f"
+        color="#b3b3b3"
       />
     </Container>
   );

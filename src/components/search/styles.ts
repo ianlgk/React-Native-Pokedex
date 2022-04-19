@@ -12,10 +12,10 @@ export const Input = styled.TextInput`
   width: 100%;
   height: 50px;
   border-radius: 10px;
-  padding: 10px 0px 10px 40px;
+  padding: 10px 0px 10px 45px;
 `;
 
 export const IconStyled = styled(Icon)`
   position: absolute;
-  left: 10px;
+  left: 15px;
 `;

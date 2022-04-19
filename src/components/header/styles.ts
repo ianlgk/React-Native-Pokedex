@@ -14,7 +14,8 @@ export const Container = styled.View<ContainerProps>`
   border-bottom-right-radius: 15px;
   padding-top: ${(props) => props.paddingTop}px;
   padding-bottom: 15px;
-  box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
 `;
 
 export const Image = styled.Image`
